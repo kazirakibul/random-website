@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+/* header section */
+header{
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat:no-repeat;
+    background-position: bottom right ,left;
+    
+}
+.title-colour{
+    color:orange;
+}
+.title{
+    font-size:45px;
+    font-weight:800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+nav li{
+    list-style:none;
+    margin-right: 40px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: lightsalmon;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+
+
+}
+/* banner tyles */
+.banner{
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro{
+    font-weight: 6000;
+    font-size: 45px;
+    margin-bottom:25px;
+}
+.second-intro{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 25px;
+}
+.banner img{
+    position: relative;
+    left: 100px;
+}
+.intro-dis{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.primary-second{
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 18px;
+}
+.btn-contact{
+    color: lightsalmon ;
+    border:1px solid  lightsalmon ;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 17px 40px;
+    margin-left: 130px;
+    
+}
